@@ -1,8 +1,25 @@
-import { useEffect, useState } from 'react';
-import './Review.css'
-import ElfsightWidget_Review from './ElfsightWidget_Review';
-
+import { useEffect, useState, useRef } from 'react';
+import './Review.css';
 function Review() {
+
+  const ref = useRef(null);
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setAnimate(false);  // reset
+          setTimeout(() => setAnimate(true), 10); // restart animation
+        }
+      },
+      { threshold: 0.5 } // 50% visible
+    );
+
+    if (ref.current) observer.observe(ref.current);
+
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
     const hiddenBoxes = document.querySelectorAll('.transition_hide');
@@ -27,10 +44,13 @@ function Review() {
   return (
     <>
       <div className="review transition_hide">
-        <ElfsightWidget_Review />
+        <div className={`google ${animate ? "animate" : ""}`} ref={ref}>
+          Jk Tours & Travels Google Review
+        </div>
+        <iframe className="review_comments" src='https://widgets.sociablekit.com/google-reviews/iframe/25628054' frameborder='0' width='100%' height='1000'></iframe>
       </div>
     </>
   )
 }
 
-export default Review
+export default Review;

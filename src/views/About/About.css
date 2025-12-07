@@ -1,0 +1,144 @@
+.about {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/public/India_Travel.WebP");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-top: 1px solid var(--border-color); */
+}
+
+.about_header {
+    height: 400px;
+    width: 40%;
+    padding-top: 3%;
+    position: relative;
+    left: 20%;
+    top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Playwrite_static";
+    color: var(--font-color);
+    background: rgb(255, 255, 255, 0.8);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    /* background-color: var(--background-color); */
+    /* border: 2px solid black; */
+}
+
+.about_heading {
+    height: 50px;
+    width: 97%;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid blue; */
+}
+
+.paragraph {
+    height: 250px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Playpen_Sans";
+    /* border: 2px solid red; */
+}
+
+
+@media (max-width: 850px) {
+
+    .about {
+        height: 400px;
+        background-color: var(--background-color);
+        /* order: 2px solid black; */
+    }
+
+    .about_header {
+        height: 300px;
+        width: 50%;
+        /* border: 2px solid black; */
+    }
+
+    .about_heading {
+        height: 25px;
+        font-size: 18px;
+        /* border: 2px solid black; */
+    }
+
+    .paragraph {
+        height: 200px;
+        font-size: 11px;
+        /* border: 2px solid red; */
+    }
+
+    .about_img {
+        height: 50px;
+        /* border: 2px solid blue; */
+    }
+
+    .about_poster {
+        height: 300px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+}
+
+/* responsive_mobile */
+
+@media (max-width: 500px) {
+
+    .about {
+        height: 300px;
+        background-color: var(--background-color);
+        background-image: none;
+    }
+
+    .about_header {
+        height: 280px;
+        width: 390%;
+        margin-left: -18%;
+        margin-top: -8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 10px;
+        /* border: 2px solid black; */
+    }
+
+    .about_heading {
+        height: 40px;
+        font-size: 17px;
+        /* border: 2px solid black; */
+    }
+
+    .paragraph {
+        height: 300px;
+        font-size: 12px;
+        /* border: 2px solid red; */
+    }
+
+    .about_img {
+        height: 200px;
+        width: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .about_poster {
+        height: 200px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+}

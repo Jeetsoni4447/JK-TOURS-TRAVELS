@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Hero from '../../Components/Hero/Hero'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -7,6 +7,25 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import './Packages.css'
 
 function Packages() {
+
+  const ref = useRef(null);
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setAnimate(false);  // reset
+          setTimeout(() => setAnimate(true), 10); // restart animation
+        }
+      },
+      { threshold: 0.5 } // 50% visible
+    );
+
+    if (ref.current) observer.observe(ref.current);
+
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
     const hiddenBoxes = document.querySelectorAll('.transition_hide');
@@ -32,7 +51,7 @@ function Packages() {
     {
       id: 1,
       title: ' LEH-LADAKH ',
-      image: './Leh-Ladakh.webp',
+      image: './public/Leh-Ladakh.webp',
       paragraph_title: '10-Nights / 11-Days',
       paragraph: '01 Night Manali 01 Night Jispa 02 Night Leh 01 Night Nubra 01 Night Leh 01 Night Pangong Lake 01 Night Leh 01  Night Kargil 01 Night Srinagar',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -40,7 +59,7 @@ function Packages() {
     {
       id: 2,
       title: ' CHARDHAM YATRA ',
-      image: './Chardham-Yatra.webp',
+      image: './public/Chardham-Yatra.webp',
       paragraph_title: '10-Nights / 11-Days',
       paragraph: 'Delhi - Haridwar(1-Night) - Barkot(2-Night) - Uttarkashi(2-Night) - Sitapur(2-Night) - Badrinath(1-Night) - Pipakoti/Joshimath(1-Night) - Haridwar(1-Night) - Delhi Droping only',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -48,7 +67,7 @@ function Packages() {
     {
       id: 3,
       title: ' HIMACHAL ',
-      image: './Manali.jpg',
+      image: './public/Manali.webp',
       paragraph_title: '9-Nights / 10-Days',
       paragraph: '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -56,7 +75,7 @@ function Packages() {
     {
       id: 4,
       title: ' RAJASTHAN ',
-      image: './rajasthan.jpg',
+      image: './public/rajasthan.webp',
       paragraph_title: '7-Nights / 8-Days',
       paragraph: '02 Nights Jaipur 01 Night Pushkar 01 Night Jodhpur 01 Night Mountabu 02 Night Udaipur',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -64,7 +83,7 @@ function Packages() {
     {
       id: 5,
       title: ' UTTARAKHAND ',
-      image: './Mussoorie.jpg',
+      image: './public/Mussoorie.webp',
       paragraph_title: '7-Nights / 8-Days',
       paragraph: 'Delhi - Nainital-(2 Nights) Jim Corbett-(2 Nights) Haridwar(1 Nights) Mussoorie(2 Nights) - Delhi',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -72,7 +91,7 @@ function Packages() {
     {
       id: 6,
       title: ' GOA ',
-      image: './goa.jpg',
+      image: './public/goa.webp',
       paragraph_title: '3-Nights / 4-Days',
       paragraph: 'Goa - North Goa - South Goa - Goa',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -84,7 +103,9 @@ function Packages() {
       <Hero />
 
       <div className="package_title transition_hide">
-        <h3>PACKAGES</h3>
+        <div className={`package_title_1 ${animate ? "animate" : ""} transition_hide`} ref={ref}>
+          PACKAGES
+        </div>
       </div>
 
       <div className="main_package">
@@ -130,10 +151,10 @@ function Packages() {
       </div>
       <div className="end_note transition_hide">
         <h1 className="end_note_title">NOTE :-&nbsp;</h1>
-        <p>Contact This Number&nbsp;:- 9904803601 For More Packages And Custom Packages.</p>
+        <p>Contact This Number&nbsp;:- 9904803601 For More... domestic & international Packages And Custom Packages.</p>
       </div>
     </>
   )
 }
 
-export default Packages
+export default Packages;

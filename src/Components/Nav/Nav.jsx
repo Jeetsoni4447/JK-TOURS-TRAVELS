@@ -1,6 +1,9 @@
 import { Link } from 'react-router';
-import './Nav.css';
 import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBook, faContactCard, faGlobe, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faGooglePay, faPaypal } from '@fortawesome/free-brands-svg-icons';
+import './Nav.css';
 
 function Nav() {
 
@@ -48,11 +51,12 @@ function Nav() {
       {/* navbar */}
 
       <nav className="nav transition_hide">
-        <Link to="/" className="navimg" end><img src="./jklogo.jpeg" alt="jktours" /></Link>
-        <Link to="/packages" className="navbtn" end>PACKAGE</Link>
-        <Link to="/contact" className="navbtn" end>CONTACT</Link>
-        <Link to="/payonline" className="navbtn" end>PAY ONLINE</Link>
-        <Link to="/forbooking" className="navbtn" end>FOR BOOKING</Link>
+        <Link to="/" className="navimg" end><img src="./jklogo.WebP" alt="jktours" /></Link>
+        <Link to="/packages" className="navbtn" end>PACKAGES</Link>
+        <Link to="/flightbooking" className="navbtn" end>Flight Booking</Link>
+        <Link to="/Carbooking" className="navbtn" end>Car Booking</Link>
+        <Link to="/busbooking" className="navbtn" end>Bus Booking</Link>
+        <Link to="/trainbooking" className="navbtn" end>Train Booking</Link>
 
         <div className="toggle_btn" onClick={toggleMenu}>
           <div className={`container ${menuOpen ? 'change' : ''}`}>
@@ -64,12 +68,14 @@ function Nav() {
         <div className={`dropdown_menu ${menuOpen ? 'open' : ''}`}>
           <ul>
             <Link to="/packages"><li className="mobile_navbtn">PACKAGE</li></Link>
-            <Link to="/contact"><li className="mobile_navbtn">CONTACT</li></Link>
-            <Link to="/payonline"><li className="mobile_navbtn">PAY ONLINE</li></Link>
-            <Link to="/forbooking"><li className="mobile_navbtn">FOR BOOKING</li></Link>
+            <Link to="/flightbooking"><li className="mobile_navbtn">Flight Booking</li></Link>
+            <Link to="/Carbooking"><li className="mobile_navbtn">Car Booking</li></Link>
+            <Link to="/busbooking"><li className="mobile_navbtn">Bus Booking</li></Link>
+            <Link to="/trainbooking"><li className="mobile_navbtn">Train Booking</li></Link>
           </ul>
         </div>
       </nav>
+
     </>
 
   );

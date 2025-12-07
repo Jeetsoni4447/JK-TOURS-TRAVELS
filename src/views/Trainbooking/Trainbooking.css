@@ -1,0 +1,301 @@
+.Traincontainer {
+    height: 700px;
+    width: 100%;
+    background-image: url("https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/02/14124006/Vande-Bharat-Express.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Playpen_Sans";
+    /* border-bottom: 2px solid var(--border-color); */
+}
+
+.Traincontant {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.Traintitle {
+    height: 400px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 61%;
+    left: 3%;
+    backdrop-filter: blur(0px);
+    /* border: 2px solid royalblue; */
+}
+
+.p {
+    font-size: 25px;
+    text-align: left;
+    color: var(--font-color);
+}
+
+.booking_btn {
+    height: 11%;
+    width: 25%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff1a1a;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.booking_btn:hover {
+    background-color: #ca1d1d;
+}
+
+.btn_contant {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    color: var(--background-color);
+    top: 21%;
+    left: 93%;
+    height: 300px;
+    width: 5%;
+    border-radius: 20px;
+    position: absolute;
+    /* border: 3px solid white; */
+}
+
+.btn_1 {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 6px 20px rgba(4, 4, 10, 0.25);
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn_1:hover {
+    color: #058a07;
+}
+
+.btn_2 {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 6px 20px rgba(4, 4, 10, 0.25);
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn_2:hover {
+    color: #ff1a1a;
+}
+
+.btn_3 {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 6px 20px rgba(4, 4, 10, 0.25);
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn_3:hover {
+    color: rgb(150, 47, 191);
+}
+
+.btn_4 {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 6px 20px rgba(4, 4, 10, 0.25);
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn_4:hover {
+    color: #0A66C2;
+}
+
+@media (max-width: 850px) {
+
+    .Traincontainer {
+        max-height: 400px;
+        max-width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .Traincontant {
+        max-height: 400px;
+        max-width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .Traintitle {
+        height: 200px;
+        width: 65%;
+        top: 60%;
+        left: 5%;
+        backdrop-filter: blur(0px);
+        /* border: 2px solid royalblue; */
+    }
+
+    .p {
+        font-size: 12px;
+    }
+
+    .booking_btn {
+        height: 12%;
+        width: 32%;
+        font-size: 12px;
+    }
+
+    .btn_contant {
+        top: 25%;
+        left: 93%;
+        height: 200px;
+        width: 5%;
+    }
+
+    .btn_1 {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn_2 {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn_3 {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn_4 {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .Traincontainer {
+        max-height: 290px;
+        max-width: 100%;
+        /* border-bottom: 2px solid var(--border-color); */
+    }
+
+    .Traincontant {
+        max-height: 400px;
+        max-width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .Traintitle {
+        height: 150px;
+        width: 80%;
+        top: 58%;
+        left: 5%;
+        backdrop-filter: blur(0px);
+        /* border: 2px solid royalblue; */
+    }
+
+    .p {
+        color: #fff;
+        font-size: 11px;
+    }
+
+    .booking_btn {
+        height: 11%;
+        width: 35%;
+        font-size: 9px;
+    }
+
+    .btn_contant {
+        top: 31%;
+        left: 92%;
+        height: 170px;
+        width: 5%;
+    }
+
+    .btn_1 {
+        font-size: 13px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn_2 {
+        font-size: 13px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn_3 {
+        font-size: 13px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn_4 {
+        font-size: 13px;
+        width: 30px;
+        height: 30px;
+    }
+
+}

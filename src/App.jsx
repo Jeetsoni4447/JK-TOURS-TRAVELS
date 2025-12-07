@@ -1,10 +1,8 @@
 import {
   Outlet
 } from "react-router";
-
 import Nav from './Components/Nav/Nav.jsx'
 import Footer from './Components/Footer/Footer.jsx'
-
 import './App.css'
 
 function App() {
@@ -18,4 +16,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

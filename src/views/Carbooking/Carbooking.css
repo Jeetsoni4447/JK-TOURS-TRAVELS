@@ -1,0 +1,301 @@
+.carcontainer {
+    height: 700px;
+    width: 100%;
+    /* background-image: url("https://images.unsplash.com/photo-1541674162775-15fd6b6802e3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1pcmF0ZXN8ZW58MHx8MHx8fDA%3D"); */
+    background-image: url("https://scontent.fraj2-1.fna.fbcdn.net/v/t39.30808-6/519810298_1273826988085517_5823479764473354496_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HV7OylhatWoQ7kNvwFjH6_R&_nc_oc=Admyb5z6dxrHb1vJINq9gn-lgt_6SD2UPG72imfYvAVyPvG4wHW3B9UcgvESQPJoymi2A3vo5ocbPdBkayJo89ZV&_nc_zt=23&_nc_ht=scontent.fraj2-1.fna&_nc_gid=kVjT93u-iqVo4c9kDrHFpQ&oh=00_AfniZIRD7Tnbg44OAS4SXEmWd3mp7AWd3-GTY5aq133H9A&oe=693B5E94");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Playpen_Sans";
+    /* border-bottom: 2px solid var(--border-color); */
+}
+
+.carcontant {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.cartitle {
+    height: 400px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    backdrop-filter: blur(0px);
+    /* border: 2px solid royalblue; */
+}
+
+.p {
+    font-size: 25px;
+    text-align: left;
+    color: #ffff;
+}
+
+.booking_btn {
+    height: 11%;
+    width: 25%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff1a1a;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.booking_btn:hover {
+    background-color: #ca1d1d;
+}
+
+.btn_contant {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    color: var(--background-color);
+    top: 21%;
+    left: 93%;
+    height: 300px;
+    width: 5%;
+    border-radius: 20px;
+    position: absolute;
+    /* border: 3px solid white; */
+}
+
+.btn_1 {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 6px 20px rgba(4, 4, 10, 0.25);
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn_1:hover {
+    color: #058a07;
+}
+
+.btn_2 {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 6px 20px rgba(4, 4, 10, 0.25);
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn_2:hover {
+    color: #ff1a1a;
+}
+
+.btn_3 {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 6px 20px rgba(4, 4, 10, 0.25);
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn_3:hover {
+    color: rgb(150, 47, 191);
+}
+
+.btn_4 {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 6px 20px rgba(4, 4, 10, 0.25);
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn_4:hover {
+    color: #0A66C2;
+}
+
+@media (max-width: 850px) {
+
+    .carcontainer {
+        max-height: 400px;
+        max-width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .carcontant {
+        max-height: 400px;
+        max-width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .cartitle {
+        height: 200px;
+        width: 65%;
+        top: 60%;
+        left: 5%;
+        backdrop-filter: blur(0px);
+        /* border: 2px solid royalblue; */
+    }
+
+    .p {
+        font-size: 12px;
+    }
+
+    .booking_btn {
+        height: 12%;
+        width: 32%;
+        font-size: 12px;
+    }
+
+    .btn_contant {
+        top: 25%;
+        left: 93%;
+        height: 200px;
+        width: 5%;
+    }
+
+    .btn_1 {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn_2 {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn_3 {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn_4 {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .carcontainer {
+        max-height: 300px;
+        max-width: 100%;
+    }
+
+    .carcontant {
+        max-height: 300px;
+        max-width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .cartitle {
+        height: 150px;
+        width: 80%;
+        top: 58%;
+        left: 5%;
+        backdrop-filter: blur(0px);
+        /* border: 2px solid royalblue; */
+    }
+
+    .p {
+        color: #fff;
+        font-size: 9px;
+    }
+
+    .booking_btn {
+        height: 11%;
+        width: 35%;
+        font-size: 9px;
+    }
+
+    .btn_contant {
+        top: 31%;
+        left: 92%;
+        height: 170px;
+        width: 5%;
+    }
+
+    .btn_1 {
+        font-size: 13px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn_2 {
+        font-size: 13px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn_3 {
+        font-size: 13px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn_4 {
+        font-size: 13px;
+        width: 30px;
+        height: 30px;
+    }
+
+}

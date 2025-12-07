@@ -27,19 +27,19 @@ const JKToursCarousel = () => {
     const slides = [
         {
             title: ' LEH-LADAKH ',
-            image: './Leh-Ladakh.webp',
+            image: './public/Leh-Ladakh.webp',
             description_tite: '10-Nights / 11-Days',
             description: '01 Night Manali 01 Night Jispa 02 Night Leh 01 Night Nubra 01 Night Leh 01 Night Pangong Lake 01 Night Leh 01  Night Kargil 01 Night Srinagar',
         },
         {
             title: ' HIMACHAL ',
-            image: './Manali.jpg',
+            image: './public/Manali.WebP',
             description_tite: '9-Nights / 10-Days',
             description: '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
         },
         {
             title: ' UTTARAKHAND ',
-            image: './Mussoorie.jpg',
+            image: './public/Mussoorie.WebP',
             description_tite: '7-Nights / 8-Days',
             description: 'Delhi - Nainital-(2 Nights) Jim Corbett-(2 Nights) Haridwar(1 Nights) Mussoorie(2 Nights) - Delhi',
         }

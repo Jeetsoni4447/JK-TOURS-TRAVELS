@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import About from '../../Components/About/About'
 import Package from '../../Components/Package/Package'
 import Review from '../../Components/Review/Review'
 import './Forbooking.css'
+import Hero from '../../Components/Hero/Hero';
 
 function Forbooking() {
 
@@ -31,6 +31,7 @@ function Forbooking() {
 
   return (
     <>
+      <Hero />
       <div className="forbooking transition_hide">
         <div className="forbooking_note">
           <h1 className="forbooking_note_heading">NOTE :-&nbsp;</h1>
@@ -46,11 +47,10 @@ function Forbooking() {
           </p>
         </div>
       </div>
-      <About />
       <Package />
       <Review />
     </>
   )
 }
 
-export default Forbooking
+export default Forbooking;

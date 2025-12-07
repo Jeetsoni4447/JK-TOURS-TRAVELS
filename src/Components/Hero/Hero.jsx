@@ -1,9 +1,17 @@
-import { useEffect } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import "./Hero.css";
 
 function Hero() {
+
+  const ref = useRef(null);
+  const ref_1 = useRef(null);
+  const [animate, setAnimate] = useState(false);
+  const [animation, setAnimation] = useState(false);
 
   useEffect(() => {
     const hiddenBoxes = document.querySelectorAll('.transition_hide');
@@ -25,90 +33,57 @@ function Hero() {
     };
   }, []);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setAnimate(false);  // reset
+          setTimeout(() => setAnimate(true), 10); // restart animation
+        }
+      },
+      { threshold: 0.5 } // 50% visible
+    );
 
-  const slideimg = [
-    {
-      isActive: true,
-      imageName: './rann_of_kutch.avif',
-      title: 'KATCH',
-      subTitle: 'GUJARAT'
-    },
-    {
-      isActive: false,
-      imageName: './Kanyakumari.jpg',
-      title: 'KANYAKUMARI',
-      subTitle: 'TAMIL-NADU'
-    },
-    {
-      isActive: false,
-      imageName: './Darjeeling.jpeg',
-      title: 'DARJEELING',
-      subTitle: 'WEST BENGAL'
-    },
-    {
-      isActive: false,
-      imageName: './Leh-Ladakh.webp',
-      title: 'LEH-LADAKH',
-      subTitle: 'JAMMU-KASHMIR'
-    },
-    {
-      isActive: false,
-      imageName: './Dwarka.jpeg',
-      title: 'DWARKA',
-      subTitle: 'GUJARAT'
-    },
-    {
-      isActive: false,
-      imageName: './Rameshwaram.jpg',
-      title: 'RAMESHWARAM',
-      subTitle: 'TAMIL-NADU'
-    },
-    {
-      isActive: false,
-      imageName: './Jagannathpuri.jpg',
-      title: 'JAGANNATHPURI',
-      subTitle: 'ODISHA'
-    },
-    {
-      isActive: false,
-      imageName: './Badrinath.jpg',
-      title: 'BADRINATH',
-      subTitle: 'UTTARAKHAND'
-    },
-    {
-      isActive: false,
-      imageName: './Kedarnath.jpeg',
-      title: 'KEDARNATH',
-      subTitle: 'UTTARAKHAND'
-    }
-  ];
+    if (ref.current) observer.observe(ref.current);
+
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setAnimation(false);  // reset
+          setTimeout(() => setAnimation(true), 10); // restart animation
+        }
+      },
+      { threshold: 0.5 } // 50% visible
+    );
+
+    if (ref_1.current) observer.observe(ref_1.current);
+
+    return () => observer.disconnect();
+  }, []);
+
 
   return (
     <>
-      <div className="maincontainer transition_hide">
-        <div className="maincontant">
-          <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div className="carousel-inner">
-              {slideimg.map((slideimg, slide) => (
-                <div className={`carousel-item ${slide === 0 ? 'active' : ''}`} key={slide}>
-                  <img src={`${slideimg.imageName}`} className="img_contant" alt="" />
-                  <div className="carousel-caption d-none d-md-block">
-                    <h5>{slideimg.title}</h5>
-                    <p>{slideimg.subTitle}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <button className="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselExampleFade"
-              data-bs-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselExampleFade"
-              data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Next</span>
-            </button>
+      <div className="Herocontainer transition_hide">
+        <div className="Herocontant">
+          <div className="Herotitle">
+            <p className="jktoursHerotitle">Welcome To <br />Jk Tours & Travels</p>
+            <p className="p">
+              At JK Tours and Travels, we believe in making your journeys unforgettable. Whether it's a business trip, a family vacation, or a weekend getaway, we are here to take care of all your travel needs with excellence and professionalism.</p>
+            <a href="https://wa.me/919904803601" target="_blank" className="booking_btn"><div>Book Now</div></a>
+          </div>
+          <div className="img_contant_1"></div>
+          <div className="img_contant_2"></div>
+          <div className="img_contant_3"></div>
+          <div className="btn_contant">
+            <a href="https://wa.me/919904803601" target="_blank" ><div className="btn_1"><FontAwesomeIcon icon={faWhatsapp} /></div></a>
+            <a href="http://www.youtube.com/@JKTOURS-TRAVEL" target="_blank"><div className="btn_2"><FontAwesomeIcon icon={faYoutube} /></div></a>
+            <a href="https://www.instagram.com/jk_tours_travels_/?igsh=amZpaXpxY2V0ZWNr&utm_source=qr#" target="_blank"><div className="btn_3"><FontAwesomeIcon icon={faInstagram} /></div></a>
+            <a href="mailto:jktourstravels4447@gmail.com" target="_blank"><div className="btn_4"><FontAwesomeIcon icon={faEnvelope} /></div></a>
           </div>
         </div>
       </div>
@@ -117,4 +92,4 @@ function Hero() {
 
 }
 
-export default Hero
+export default Hero;

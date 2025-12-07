@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "WinkySans";
-    src: url(./src/external_folder/googlefont/Winky_Sans/static/WinkySans-MediumItalic.ttf);
+    font-family: "Playpen_Sans";
+    src: url(./src/external_folder/googlefont/Playpen_Sans,Playwrite_NO/Playpen_Sans/PlaypenSans-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: "Kaushan";
-    src: url(./src/external_folder/googlefont/Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf);
+    font-family: "Playwrite_static";
+    src: url(./src/external_folder/googlefont/Playpen_Sans,Playwrite_NO/Playwrite_NO/static/PlaywriteNO-Thin.ttf);
 }
 
 * {
@@ -16,13 +16,9 @@
 
 :root {
     --border-color: rgb(0, 0, 0);
-    --hover-color: rgb(252, 163, 17);
-    --font-color: rgb(20, 33, 61);
-    --background-color: rgb(229, 229, 229);
-}
-
-body {
-    background-color: var(--background-color);
+    --hover-color: rgba(0, 42, 255, 0.647);
+    --font-color: rgba(255, 255, 255, 0.2);
+    --background-color: rgba(255, 255, 255, 0.5);
 }
 
 .transition_hide {

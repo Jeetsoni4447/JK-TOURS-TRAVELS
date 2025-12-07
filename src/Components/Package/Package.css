@@ -4,19 +4,48 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: "Kaushan";
+    font-family: "Playpen_Sans";
     background-color: var(--background-color);
     border-top: 1px solid var(--border-color);
 }
 
-.main_package_heading {
-    width: 100%;
-    margin-top: 8px;
+.heading {
+    margin-top: 4px;
+    width: 25%;
+    left: 37%;
+    position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: var(--background-color);
-    /* border: 2px solid red; */
+    justify-content: center;
+    font-family: "Playwrite_static";
+    font-size: 35px;
+}
+
+.heading.animate::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background: var(--border-color);
+    border-radius: 10px;
+    animation: borderExpand 1s ease forwards;
+}
+
+.heading.animate {
+    opacity: 1;
+}
+
+@keyframes borderExpand {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
 }
 
 .main_package_cards {
@@ -25,9 +54,7 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    border: none;
     background-color: var(--background-color);
-    /* border: 2px solid violet; */
 }
 
 .main_package_laptop {
@@ -42,43 +69,46 @@
     display: none;
 }
 
+/* ---------------------- TABLET ---------------------- */
+
 @media (max-width: 850px) {
 
     .main_package_tablet {
-        height: 400px;
+        height: 500px;
         width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
-        font-family: "Kaushan";
+        font-family: "Playpen_Sans";
         background-color: var(--background-color);
         border-top: 1px solid var(--border-color);
     }
 
-    .main_package_heading {
-        height: 30px;
+    /* FIXED: Heading width added for underline animation */
+    .heading {
+        height: 60px;
+        width: 40%;
+        left: 31%;
+        position: relative;
         display: flex;
+        font-size: 27px;
         justify-content: center;
         align-items: center;
-        /* border: 2px solid red; */
     }
 
     .main_package_cards {
-        height: 350px;
+        height: 400px;
         text-align: center;
         object-fit: cover;
         object-position: center;
         color: white;
-        /* border: 2px solid violet; */
     }
 
     .card-img {
-        height: 350px;
-        text-align: center;
+        height: 400px;
         object-fit: cover;
         object-position: center;
         background-color: var(--background-color);
-        /* border: 2px solid violet; */
     }
 
     .text-btn {
@@ -101,15 +131,16 @@
     .main_package_mobile {
         display: none;
     }
-
 }
+
+/* ---------------------- MOBILE ---------------------- */
 
 @media (max-width: 500px) {
 
     .main_package_mobile {
-        height: 250px;
+        height: 300px;
         width: 100%;
-        font-family: "Kaushan";
+        font-family: "Playpen_Sans";
         display: flex;
         justify-content: center;
         align-items: center;
@@ -119,21 +150,31 @@
         border-top: 1px solid var(--border-color);
     }
 
-    .main_package_heading {
+    /* FIXED: Heading width & centering for underline animation */
+    .heading {
         margin-top: 8px;
-        width: 100%;
+        height: 30px;
+        width: 50%;
+        left: 25%;
+        padding-bottom: 5px;
+        font-size: 22px;
+        position: relative;
+    }
+
+    .heading.animate::after {
+        height: 2px;
     }
 
     .main_package_cards {
-        height: 200px;
+        height: 250px;
         width: 100%;
         overflow: scroll;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
-        color: var(--font-color);
         flex-direction: column;
+        color: var(--font-color);
         /* border: 2px solid red; */
     }
 
@@ -157,5 +198,4 @@
     .main_package_mobile {
         display: block;
     }
-
 }

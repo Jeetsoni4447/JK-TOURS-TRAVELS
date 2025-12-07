@@ -1,5 +1,8 @@
 :root {
     --font-color: rgb(20, 33, 61);
+    --border-color: rgb(0, 0, 0);
+    --hover-color: rgba(0, 42, 255, 0.647);
+    --background-color: rgba(255, 255, 255, 0.5);
 }
 
 .swiper {
@@ -58,6 +61,7 @@
     color: #fff;
     font-size: 0.99rem;
     font-weight: bold;
+    font-family: "Playwrite_static";
     opacity: 0;
     transition: opacity 0.4s ease;
 }
@@ -72,16 +76,40 @@
 }
 
 .content h2 {
-    margin: 0 0 10px;
-    font-size: 1.3rem;
-    font-family: "Kaushan";
-    color: var(--font-color);
+    transition: transform 0.4s ease, text-shadow 0.4s ease;
+    transform-origin: center;
 }
 
+.content h2:hover {
+    transform: translateZ(30px) scale(1.08) rotateX(8deg) rotateY(-8deg);
+    text-shadow:
+        0px 4px 10px rgba(0, 0, 0, 0.3),
+        0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* PARAGRAPH (p) 3D HOVER */
 .content p {
-    font-size: 1rem;
-    font-family: "WinkySans";
-    color: var(--font-color);
+    transition: transform 0.4s ease, text-shadow 0.4s ease;
+    transform-origin: center;
+}
+
+.content p:hover {
+    transform: translateZ(25px) scale(1.05) rotateX(6deg);
+    text-shadow:
+        0px 3px 8px rgba(0, 0, 0, 0.25),
+        0px 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* OPTIONAL → IMAGE OVERLAY TEXT 3D HOVER */
+.card-image .overlay-text {
+    transition: transform 0.4s ease, text-shadow 0.4s ease;
+}
+
+.card-image .overlay-text:hover {
+    transform: translateZ(40px) scale(1.1);
+    text-shadow:
+        0px 5px 12px rgba(0, 0, 0, 0.4),
+        0px 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .textbtn {
@@ -112,7 +140,7 @@ button {
     background-color: var(--font-color);
     border-radius: 12px;
     overflow: hidden;
-    font-family: "Kaushan";
+    font-family: "Playpen_Sans";
     transition: 31ms cubic-bezier(.5, .7, .4, 1);
 }
 
@@ -148,7 +176,7 @@ button i {
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 4px;
-    font-style: normal;
+    font-family: "Playpen_Sans";
     transition: all 2s ease;
     transform: translateY(-20px);
     opacity: 0;
@@ -156,7 +184,7 @@ button i {
 
 button:hover i {
     transition: all .2s ease;
-    color: var(--hover-color);
+    color: antiquewhite;
     transform: translateY(0px);
     opacity: 1;
 }
