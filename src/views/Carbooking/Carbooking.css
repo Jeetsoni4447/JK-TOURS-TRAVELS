@@ -1,8 +1,7 @@
 .carcontainer {
     height: 700px;
     width: 100%;
-    /* background-image: url("https://images.unsplash.com/photo-1541674162775-15fd6b6802e3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1pcmF0ZXN8ZW58MHx8MHx8fDA%3D"); */
-    background-image: url("https://scontent.fraj2-1.fna.fbcdn.net/v/t39.30808-6/519810298_1273826988085517_5823479764473354496_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HV7OylhatWoQ7kNvwFjH6_R&_nc_oc=Admyb5z6dxrHb1vJINq9gn-lgt_6SD2UPG72imfYvAVyPvG4wHW3B9UcgvESQPJoymi2A3vo5ocbPdBkayJo89ZV&_nc_zt=23&_nc_ht=scontent.fraj2-1.fna&_nc_gid=kVjT93u-iqVo4c9kDrHFpQ&oh=00_AfniZIRD7Tnbg44OAS4SXEmWd3mp7AWd3-GTY5aq133H9A&oe=693B5E94");
+    background-image: url("./public/tempo.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

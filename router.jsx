@@ -4,7 +4,6 @@ import About from "./src/views/About/About.jsx";
 import Contact from "./src/views/Contact/Contact.jsx";
 import HomePage from "./src/views/HomePage/HomePage.jsx";
 import Packages from "./src/views/Packages/Packages.jsx";
-import Forbooking from "./src/views/Forbooking/Forbooking.jsx";
 import Busbooking from "./src/views/Busbooking/Busbooking.jsx"
 import Trainbooking from "./src/views/Trainbooking/Trainbooking.jsx"
 import Flightbooking from "./src/views/Flightbooking/Flightbooking.jsx"
@@ -19,7 +18,6 @@ const router = createBrowserRouter([
             { index: true, element: <HomePage /> },
             { path: "contact", element: <Contact /> },
             { path: "packages", element: <Packages /> },
-            { path: "forbooking", element: <Forbooking /> },
             { path: "about", element: <About /> },
             { path: "Termsconditions", element: <Termsconditions /> },
             { path: "Busbooking", element: <Busbooking /> },

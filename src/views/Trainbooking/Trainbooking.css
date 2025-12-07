@@ -1,7 +1,7 @@
 .Traincontainer {
     height: 700px;
     width: 100%;
-    background-image: url("https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/02/14124006/Vande-Bharat-Express.jpg");
+    background-image: url("./public/VandeTrain.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
