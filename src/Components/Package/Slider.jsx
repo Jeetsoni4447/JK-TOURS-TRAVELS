@@ -34,13 +34,13 @@ const JKToursCarousel = () => {
         {
             title: ' HIMACHAL ',
             image: './public/Manali.WebP',
-            description_tite: '9-Nights / 10-Days',
+            description_tite: '09-Nights / 10-Days',
             description: '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
         },
         {
             title: ' UTTARAKHAND ',
             image: './public/Mussoorie.WebP',
-            description_tite: '7-Nights / 8-Days',
+            description_tite: '07-Nights / 08-Days',
             description: 'Delhi - Nainital-(2 Nights) Jim Corbett-(2 Nights) Haridwar(1 Nights) Mussoorie(2 Nights) - Delhi',
         }
     ];
@@ -63,7 +63,7 @@ const JKToursCarousel = () => {
                                 <p>{slide.description}</p>
                             </div>
                             <div className="textbtn">
-                                <Link to="/packages" end><button alt="View All Packages">
+                                <Link to="/packages"><button alt="View All Packages">
                                     <i>V</i>
                                     <i>i</i>
                                     <i>e</i>

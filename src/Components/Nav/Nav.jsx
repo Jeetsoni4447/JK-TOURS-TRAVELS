@@ -1,8 +1,6 @@
-import { Link } from 'react-router';
+import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faContactCard, faGlobe, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faGooglePay, faPaypal } from '@fortawesome/free-brands-svg-icons';
+import { FaPlane, FaCar, FaBus, FaTrain, FaGlobe, FaHome, FaFileContract, FaUser, FaInfo } from "react-icons/fa";
 import './Nav.css';
 
 function Nav() {
@@ -36,27 +34,27 @@ function Nav() {
 
   return (
     <>
-
       {/* header */}
 
       <header className="header_line transition_hide">
         <p className="help">
-          For Spacial-Tour Related Enquiry :-
-          <a href="tel:+91 8866381429" className="help_text help_no_1"> +91 8866381429 </a>
+          For Special-Tour Related Enquiry :-
+          <a href="tel:+91 8866381429"> +91 8866381429 </a>
           <i>|</i>
-          <a href="tel:+91 9904803601" className="help_text help_no_2"> +91 9904803601 </a>
+          <a href="tel:+91 9904803601"> +91 9904803601 </a>
         </p>
       </header>
 
       {/* navbar */}
 
       <nav className="nav transition_hide">
-        <Link to="/" className="navimg" end><img src="./jklogo.WebP" alt="jktours" /></Link>
-        <Link to="/packages" className="navbtn" end>PACKAGES</Link>
-        <Link to="/flightbooking" className="navbtn" end>Flight Booking</Link>
-        <Link to="/Carbooking" className="navbtn" end>Car Booking</Link>
-        <Link to="/busbooking" className="navbtn" end>Bus Booking</Link>
-        <Link to="/trainbooking" className="navbtn" end>Train Booking</Link>
+        <NavLink to="/" className="navimg"><img src="./jklogo.WebP" alt="jktours" /></NavLink>
+
+        <NavLink to="/packages" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>PACKAGES</NavLink>
+        <NavLink to="/flightbooking" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>Flight Booking</NavLink>
+        <NavLink to="/Carbooking" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>Car Booking</NavLink>
+        <NavLink to="/busbooking" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>Bus Booking</NavLink>
+        <NavLink to="/trainbooking" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>Train Booking</NavLink>
 
         <div className="toggle_btn" onClick={toggleMenu}>
           <div className={`container ${menuOpen ? 'change' : ''}`}>
@@ -65,17 +63,48 @@ function Nav() {
             <div className="bar3"></div>
           </div>
         </div>
-        <div className={`dropdown_menu ${menuOpen ? 'open' : ''}`}>
-          <ul>
-            <Link to="/packages"><li className="mobile_navbtn">PACKAGE</li></Link>
-            <Link to="/flightbooking"><li className="mobile_navbtn">Flight Booking</li></Link>
-            <Link to="/Carbooking"><li className="mobile_navbtn">Car Booking</li></Link>
-            <Link to="/busbooking"><li className="mobile_navbtn">Bus Booking</li></Link>
-            <Link to="/trainbooking"><li className="mobile_navbtn">Train Booking</li></Link>
-          </ul>
-        </div>
       </nav>
 
+      {/* Sidebar – Updated UI */}
+
+      <div className={`left_sidebar ${menuOpen ? 'open' : ''}`}>
+        <h2>Menu</h2>
+
+        <NavLink to="/" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
+          <FaHome /> Home
+        </NavLink>
+        <NavLink to="/packages" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
+          <FaGlobe /> Package
+        </NavLink>
+
+        <NavLink to="/flightbooking" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
+          <FaPlane /> Flight Booking
+        </NavLink>
+
+        <NavLink to="/Carbooking" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
+          <FaCar /> Car Booking
+        </NavLink>
+
+        <NavLink to="/busbooking" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
+          <FaBus /> Bus Booking
+        </NavLink>
+
+        <NavLink to="/trainbooking" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
+          <FaTrain /> Train Booking
+        </NavLink>
+
+        <NavLink to="/about" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
+          <FaInfo /> About Us
+        </NavLink>
+
+        <NavLink to="/contact" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
+          <FaUser /> Contact Us
+        </NavLink>
+
+        <NavLink to="/termsconditions" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
+          <FaFileContract /> Terms & Conditions
+        </NavLink>
+      </div>
     </>
 
   );

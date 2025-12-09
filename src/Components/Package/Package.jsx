@@ -152,7 +152,7 @@ function Package() {
                       <h5 className="card-title">{pc.title}</h5>
                       <p className="card-text">{pc.paragraph_title}</p>
                       <p className="card-text">{pc.paragraph}</p>
-                      <Link to="/packages" className="text-btn" end>
+                      <Link to="/packages" className="text-btn">
                         View All Packages
                       </Link>
                     </div>
@@ -185,7 +185,7 @@ function Package() {
                 <p>{pc.paragraph}</p>
               </div>
               <div className="card-footer">
-                <Link to="/packages" className="text-btn" end>
+                <Link to="/packages" className="text-btn">
                   View All Packages
                 </Link>
               </div>

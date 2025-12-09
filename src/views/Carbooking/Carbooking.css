@@ -170,13 +170,13 @@
 @media (max-width: 850px) {
 
     .carcontainer {
-        max-height: 400px;
+        max-height: 500px;
         max-width: 100%;
         /* border: 2px solid red; */
     }
 
     .carcontant {
-        max-height: 400px;
+        max-height: 500px;
         max-width: 100%;
         /* border: 2px solid red; */
     }
@@ -236,12 +236,16 @@
 @media (max-width: 500px) {
 
     .carcontainer {
-        max-height: 300px;
+        max-height: 400px;
         max-width: 100%;
+        background-image: url("./public/tempo_mobile.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .carcontant {
-        max-height: 300px;
+        max-height: 400px;
         max-width: 100%;
         /* border: 2px solid red; */
     }
@@ -249,7 +253,7 @@
     .cartitle {
         height: 150px;
         width: 80%;
-        top: 58%;
+        top: 66%;
         left: 5%;
         backdrop-filter: blur(0px);
         /* border: 2px solid royalblue; */

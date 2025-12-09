@@ -47,7 +47,7 @@ function Review() {
         <div className={`google ${animate ? "animate" : ""}`} ref={ref}>
           Jk Tours & Travels Google Review
         </div>
-        <iframe className="review_comments" src='https://widgets.sociablekit.com/google-reviews/iframe/25628054' frameborder='0' width='100%' height='1000'></iframe>
+        <iframe className="review_comments" src='https://widgets.sociablekit.com/google-reviews/iframe/25628054' frameBorder='0' width='100%' height='1000'></iframe>
       </div>
     </>
   )

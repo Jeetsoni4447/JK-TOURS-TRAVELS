@@ -1,9 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import Hero from '../../Components/Hero/Hero'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-
+import { FaPhone, FaWhatsapp, FaWhatsappSquare } from 'react-icons/fa';
 import './Packages.css'
 
 function Packages() {
@@ -58,6 +55,14 @@ function Packages() {
     },
     {
       id: 2,
+      title: ' PURI ODISHA ',
+      image: './public/puri.webp',
+      paragraph_title: '06-Nights / 07-Days',
+      paragraph: 'Jagannath Puri Tample, Puri Sea Beach, Unesco Heritage Konark Sun Temple, 1100 Year Old Lingraj Temple, Chilika Lake, Dholigirir a Shanti Stupa More...',
+      paragraph_note: 'For Booking Call Or Whatsapp',
+    },
+    {
+      id: 3,
       title: ' CHARDHAM YATRA ',
       image: './public/Chardham-Yatra.webp',
       paragraph_title: '10-Nights / 11-Days',
@@ -65,7 +70,7 @@ function Packages() {
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
-      id: 3,
+      id: 4,
       title: ' HIMACHAL ',
       image: './public/Manali.webp',
       paragraph_title: '9-Nights / 10-Days',
@@ -73,7 +78,7 @@ function Packages() {
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
-      id: 4,
+      id: 5,
       title: ' RAJASTHAN ',
       image: './public/rajasthan.webp',
       paragraph_title: '7-Nights / 8-Days',
@@ -81,7 +86,7 @@ function Packages() {
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
-      id: 5,
+      id: 6,
       title: ' UTTARAKHAND ',
       image: './public/Mussoorie.webp',
       paragraph_title: '7-Nights / 8-Days',
@@ -89,7 +94,7 @@ function Packages() {
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
-      id: 6,
+      id: 7,
       title: ' GOA ',
       image: './public/goa.webp',
       paragraph_title: '3-Nights / 4-Days',
@@ -133,14 +138,14 @@ function Packages() {
                       <span></span>
                       <span></span>
                       <span></span>
-                      <FontAwesomeIcon icon={faWhatsapp} />WhatsApp
+                      <FaWhatsapp className="whatsapp" />WhatsApp
                     </a>
                     <a href="tel:+918866381429" className="Contactbtn" >
                       <span></span>
                       <span></span>
                       <span></span>
                       <span></span>
-                      <FontAwesomeIcon icon={faPhone} />Contact
+                      <FaPhone />Contact
                     </a>
                   </div>
                 </div>

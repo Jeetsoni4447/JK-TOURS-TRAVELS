@@ -1,9 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faBuilding, faGlobe, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Hero from '../../Components/Hero/Hero'
 import Review from '../../Components/Review/Review'
+import { FaBuilding, FaEnvelope, FaGlobe, FaPhone, FaWhatsapp } from 'react-icons/fa';
 import './Contact.css'
 
 function Contact() {
@@ -36,19 +34,19 @@ function Contact() {
         <div className="contact_header">
           <h2>Address</h2>
           <a href="https://maps.app.goo.gl/WnkS3Rr1t6QWs9C18" target="_blank" className="contact_text">
-            <FontAwesomeIcon icon={faBuilding} />&nbsp;Head Office:<br />
+            <FaBuilding />&nbsp;Head Office:<br />
             8, DIWAN CHOWK, DIWAN COMPLEX, JUNAGADH, GUJARAT (INDIA).
           </a>
           <h2>Contact</h2>
           <a href="tel:+91 9904803601" className="contact_text">
-            <FontAwesomeIcon icon={faWhatsapp} />&nbsp;+91 9904803601
+            <FaWhatsapp />&nbsp;+91 9904803601
           </a><br />
-          <a href="tel:+91 8866381429" className="contact_text"><FontAwesomeIcon icon={faPhone} />&nbsp;+91 8866381429
+          <a href="tel:+91 8866381429" className="contact_text"><FaPhone />&nbsp;+91 8866381429
           </a><br />
           <a href="mailto:jktourstravels4447@gmail.com" className="contact_text">
-            <FontAwesomeIcon icon={faEnvelope} />&nbsp;&nbsp;JkTours&Travels4447@gmail.com
+            <FaEnvelope />&nbsp;&nbsp;JkTours&Travels4447@gmail.com
           </a><br />
-          <a href="https://www.jktours-travels.com/" className="contact_text"><FontAwesomeIcon icon={faGlobe} />&nbsp;WWW.JKTOURS-TRAVELS.COM
+          <a href="https://www.jktours-travels.com/" className="contact_text"><FaGlobe />&nbsp;WWW.JKTOURS-TRAVELS.COM
           </a><br />
         </div>
 

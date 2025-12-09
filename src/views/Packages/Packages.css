@@ -274,8 +274,8 @@
     left: 0;
     width: 1px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #058a07);
-    animation: animate 1s infinite;
+    background: linear-gradient(360deg, transparent, #0076d7);
+    animation: animate4 1s infinite;
     animation-delay: .75s;
 }
 
@@ -289,8 +289,8 @@
     }
 }
 
-.fa-whatsapp {
-    font-size: 2rem;
+.whatsapp {
+    font-size: 1.5rem;
 }
 
 .Contactbtn {
@@ -410,7 +410,7 @@
     }
 }
 
-.fa-phone {
+.FaPhone {
     font-size: 1.5rem;
 }
 
@@ -435,13 +435,13 @@
 @media (max-width: 850px) {
 
     .package_title {
-        height: 60px;
+        height: 50px;
         width: 100%;
         border-top: 1px solid var(--border-color);
     }
 
     .package_title_1 {
-        height: 50px;
+        height: 40px;
         width: 25%;
         left: 6%;
         font-size: 25px;
@@ -557,7 +557,7 @@
         font-size: 0.8rem;
     }
 
-    .fa-whatsapp {
+    .whatsapp {
         font-size: 1.2rem;
     }
 
@@ -567,7 +567,7 @@
         font-size: 0.8rem;
     }
 
-    .fa-phone {
+    .FaPhone {
         font-size: 1rem;
     }
 
@@ -711,7 +711,7 @@
         font-size: 0.8rem;
     }
 
-    .fa-whatsapp {
+    .whatsapp {
         font-size: 1.2rem;
     }
 
@@ -721,7 +721,7 @@
         font-size: 0.8rem;
     }
 
-    .fa-phone {
+    .FaPhone {
         font-size: 1rem;
     }
 

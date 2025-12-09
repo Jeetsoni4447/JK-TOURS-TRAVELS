@@ -170,13 +170,13 @@
 @media (max-width: 850px) {
 
     .flightcontainer {
-        max-height: 400px;
+        max-height: 450px;
         max-width: 100%;
         /* border: 2px solid red; */
     }
 
     .flightcontant {
-        max-height: 400px;
+        max-height: 450px;
         max-width: 100%;
         /* border: 2px solid red; */
     }
@@ -236,7 +236,7 @@
 @media (max-width: 500px) {
 
     .flightcontainer {
-        max-height: 290px;
+        max-height: 400px;
         max-width: 100%;
         background-image: url("./public/emiratesflight_2.webp");
         background-position: center;
@@ -254,7 +254,7 @@
     .flighttitle {
         height: 150px;
         width: 80%;
-        top: 58%;
+        top: 70%;
         left: 5%;
         backdrop-filter: blur(0px);
         /* border: 2px solid royalblue; */

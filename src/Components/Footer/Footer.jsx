@@ -1,9 +1,7 @@
 import './Footer.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faBuilding, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import React, { useEffect } from 'react';
-import { Link } from "react-router";
+import { FaBuilding, FaEnvelope, FaPhone } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
+import { useEffect, useState } from "react";
 
 function Footer() {
 
@@ -38,32 +36,32 @@ function Footer() {
             <div className="footercontact">
               <h1 className="text_heading"><b>CONTACT US</b></h1>
               <a href="https://maps.app.goo.gl/WnkS3Rr1t6QWs9C18" target="_blank" className="text">
-                <FontAwesomeIcon icon={faBuilding} />&nbsp;Head Office:<br />
+                <FaBuilding />&nbsp;Head Office:<br />
                 8, DIWAN CHOWK, DIWAN COMPLEX, JUNAGADH, GUJARAT (INDIA).
               </a>
               <a className="text">
                 <li></li>
               </a>
-              <li><a href="tel:+91 9904803601" className="text"><FontAwesomeIcon icon={faPhone} />&nbsp;+91 9904803601</a>,
+              <li><a href="tel:+91 9904803601" className="text"><FaPhone />&nbsp;+91 9904803601</a>,
                 <a href="tel:+91 8866381429" className="text">+91 8866381429</a></li>
               <a href="mailto:jktourstravels4447@gmail.com" className="text">
-                <li><FontAwesomeIcon icon={faEnvelope} />&nbsp;&nbsp;JkTours&Travels4447@gmail.com</li>
+                <li><FaEnvelope />&nbsp;&nbsp;JkTours&Travels4447@gmail.com</li>
               </a>
             </div>
             <div className="footertext">
               <h1 className="text_heading"><b>QUICK LINKS</b></h1>
-              <Link to="/" className="text" end>
+              <NavLink to="/" className="text" end>
                 Home
-              </Link><br /><br />
-              <Link to="/About" className="text" end>
+              </NavLink><br /><br />
+              <NavLink to="/about" className="text" end>
                 About Us
-              </Link><br /><br />
-              <Link to="/contact" className="text" end>
+              </NavLink><br /><br />
+              <NavLink to="/contact" className="text" end>
                 Contact Us
-              </Link><br /><br />
-              <Link to="/Termsconditions" className="text" end>
+              </NavLink><br /><br />
+              <NavLink to="/termsconditions" className="text" end>
                 Terms & Conditions
-              </Link>
+              </NavLink>
             </div>
           </div>
           <div className="footermap">

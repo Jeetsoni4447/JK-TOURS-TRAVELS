@@ -170,13 +170,13 @@
 @media (max-width: 850px) {
 
     .buscontainer {
-        max-height: 400px;
+        max-height: 500px;
         max-width: 100%;
         /* border: 2px solid red; */
     }
 
     .buscontant {
-        max-height: 400px;
+        max-height: 500px;
         max-width: 100%;
         /* border: 2px solid red; */
     }
@@ -236,7 +236,7 @@
 @media (max-width: 500px) {
 
     .buscontainer {
-        max-height: 290px;
+        max-height: 400px;
         max-width: 100%;
         /* border-bottom: 2px solid var(--border-color); */
     }
@@ -250,15 +250,11 @@
     .bustitle {
         height: 150px;
         width: 80%;
-        top: 58%;
+        top: 66%;
         left: 5%;
         backdrop-filter: blur(0px);
+        font-size: 15px;
         /* border: 2px solid royalblue; */
-    }
-
-    .p {
-        color: #fff;
-        font-size: 11px;
     }
 
     .booking_btn {
