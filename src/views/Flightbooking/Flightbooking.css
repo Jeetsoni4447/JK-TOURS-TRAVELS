@@ -1,7 +1,7 @@
 .flightcontainer {
     height: 700px;
     width: 100%;
-    background-image: url("./public/emiratesflight.webp");
+    background-image: url("/public/emiratesflight.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,7 +238,7 @@
     .flightcontainer {
         max-height: 400px;
         max-width: 100%;
-        background-image: url("./public/emiratesflight_2.webp");
+        background-image: url("/public/emiratesflight_2.webp");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

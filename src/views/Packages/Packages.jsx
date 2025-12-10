@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
-import Hero from '../../Components/Hero/Hero'
+import Hero from './/Components/Hero/Hero'
 import { FaPhone, FaWhatsapp, FaWhatsappSquare } from 'react-icons/fa';
-import './Packages.css'
+import '/public/Packages.css'
 
 function Packages() {
 
@@ -48,7 +48,7 @@ function Packages() {
     {
       id: 1,
       title: ' DUBAI ',
-      image: './dubai.webp',
+      image: '/public/dubai.webp',
       paragraph_title: '00-Nights / 00-Days',
       paragraph: 'Coming Soon... In Website But Bookings Are Open',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -56,7 +56,7 @@ function Packages() {
     {
       id: 2,
       title: ' THAILAND ',
-      image: './thailand.webp',
+      image: '/public/thailand.webp',
       paragraph_title: '00-Nights / 00-Days',
       paragraph: 'Coming Soon... In Website But Bookings Are Open',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -64,7 +64,7 @@ function Packages() {
     {
       id: 3,
       title: ' BALI ',
-      image: './bali.webp',
+      image: '/public/bali.webp',
       paragraph_title: '00-Nights / 00-Days',
       paragraph: 'Coming Soon... In Website But Bookings Are Open',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -72,7 +72,7 @@ function Packages() {
     {
       id: 4,
       title: ' ANDAMAN NICOBAR ',
-      image: './AndamanNicobar.webp',
+      image: '/public/AndamanNicobar.webp',
       paragraph_title: '00-Nights / 00-Days',
       paragraph: 'Coming Soon... In Website But Bookings Are Open',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -80,7 +80,7 @@ function Packages() {
     {
       id: 5,
       title: ' VIETNAM ',
-      image: './vietnam.webp',
+      image: '/public/vietnam.webp',
       paragraph_title: '00-Nights / 00-Days',
       paragraph: 'Coming Soon... In Website But Bookings Are Open',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -88,7 +88,7 @@ function Packages() {
     {
       id: 6,
       title: ' LEH-LADAKH ',
-      image: './Leh-Ladakh.webp',
+      image: '/public/Leh-Ladakh.webp',
       paragraph_title: '10-Nights / 11-Days',
       paragraph: '01 Night Manali 01 Night Jispa 02 Night Leh 01 Night Nubra 01 Night Leh 01 Night Pangong Lake 01 Night Leh 01  Night Kargil 01 Night Srinagar',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -96,7 +96,7 @@ function Packages() {
     {
       id: 7,
       title: ' PURI ODISHA ',
-      image: './puri.webp',
+      image: '/public/puri.webp',
       paragraph_title: '06-Nights / 07-Days',
       paragraph: 'Jagannath Puri Tample, Puri Sea Beach, Unesco Heritage Konark Sun Temple, 1100 Year Old Lingraj Temple, Chilika Lake, Dholigirir a Shanti Stupa More...',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -104,7 +104,7 @@ function Packages() {
     {
       id: 8,
       title: ' CHARDHAM YATRA ',
-      image: './Chardham-Yatra.webp',
+      image: '/public/Chardham-Yatra.webp',
       paragraph_title: '10-Nights / 11-Days',
       paragraph: 'Delhi - Haridwar(1-Night) - Barkot(2-Night) - Uttarkashi(2-Night) - Sitapur(2-Night) - Badrinath(1-Night) - Pipakoti/Joshimath(1-Night) - Haridwar(1-Night) - Delhi Droping only',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -112,7 +112,7 @@ function Packages() {
     {
       id: 9,
       title: ' HIMACHAL ',
-      image: './Manali.webp',
+      image: '/public/Manali.webp',
       paragraph_title: '9-Nights / 10-Days',
       paragraph: '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -120,7 +120,7 @@ function Packages() {
     {
       id: 10,
       title: ' RAJASTHAN ',
-      image: './rajasthan.webp',
+      image: '/public/rajasthan.webp',
       paragraph_title: '7-Nights / 8-Days',
       paragraph: '02 Nights Jaipur 01 Night Pushkar 01 Night Jodhpur 01 Night Mountabu 02 Night Udaipur',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -128,7 +128,7 @@ function Packages() {
     {
       id: 11,
       title: ' UTTARAKHAND ',
-      image: './Mussoorie.webp',
+      image: '/public/Mussoorie.webp',
       paragraph_title: '7-Nights / 8-Days',
       paragraph: 'Delhi - Nainital-(2 Nights) Jim Corbett-(2 Nights) Haridwar(1 Nights) Mussoorie(2 Nights) - Delhi',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -136,7 +136,7 @@ function Packages() {
     {
       id: 12,
       title: ' GOA ',
-      image: './goa.webp',
+      image: '/public/goa.webp',
       paragraph_title: '3-Nights / 4-Days',
       paragraph: 'Goa - North Goa - South Goa - Goa',
       paragraph_note: 'For Booking Call Or Whatsapp',

@@ -74,42 +74,42 @@ function Package() {
   const package_card_1 = [
     {
       title: ' DUBAI ',
-      image: './dubai.webp',
+      image: '/public/dubai.webp',
       paragraph_title: '00-Nights / 00-Days',
       paragraph:
         'Coming Soon... In Website But Bookings Are Open',
     },
     {
       title: ' THAILAND ',
-      image: './thailand.webp',
+      image: '/public/thailand.webp',
       paragraph_title: '00-Nights / 00-Days',
       paragraph:
         'Coming Soon... In Website But Bookings Are Open',
     },
     {
       title: ' VIETNAM ',
-      image: './vietnam.webp',
+      image: '/public/vietnam.webp',
       paragraph_title: '00-Nights / 00-Days',
       paragraph:
         'Coming Soon... In Website But Bookings Are Open',
     },
     {
       title: ' LEH-LADAKH ',
-      image: './Leh-Ladakh.webp',
+      image: '/public/Leh-Ladakh.webp',
       paragraph_title: '10-Nights / 11-Days',
       paragraph:
         '01 Night Manali 01 Night Jispa 02 Night Leh 01 Night Nubra 01 Night Leh 01 Night Pangong Lake 01 Night Leh 01 Night Kargil 01 Night Srinagar',
     },
     {
       title: ' HIMACHAL ',
-      image: './Manali.webp',
+      image: '/public/Manali.webp',
       paragraph_title: '9-Nights / 10-Days',
       paragraph:
         '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
     },
     {
       title: ' UTTARAKHAND ',
-      image: './Mussoorie.webp',
+      image: '/public/Mussoorie.webp',
       paragraph_title: '7-Nights / 8-Days',
       paragraph:
         'Delhi - Nainital-(2 Nights) Jim Corbett-(2 Nights) Haridwar(1 Nights) Mussoorie(2 Nights) - Delhi',
