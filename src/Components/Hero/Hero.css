@@ -1,7 +1,7 @@
 .Herocontainer {
     height: 790px;
     width: 100%;
-    background-image: url("Dattatreya_Temple_of_Girnar.WebP");
+    background-image: url("/public/Dattatreya_Temple_of_Girnar.WebP");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
