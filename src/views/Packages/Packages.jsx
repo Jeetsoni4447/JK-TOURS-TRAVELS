@@ -1,7 +1,8 @@
 import { useEffect, useState, useRef } from 'react';
-import Hero from './/Components/Hero/Hero'
+// import Hero from "Hero/Hero.jsx"
 import { FaPhone, FaWhatsapp, FaWhatsappSquare } from 'react-icons/fa';
-import '/public/Packages.css'
+import './Packages.css'
+import Hero from '../../Components/Hero/Hero';
 
 function Packages() {
 
