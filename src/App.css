@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Playpen_Sans";
-    src: url(./PlaypenSans-VariableFont_wght.ttf);
+    src: url(PlaypenSans-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: "Playwrite_static";
-    src: url(./PlaywriteNO-Thin.ttf);
+    src: url(PlaywriteNO-Thin.ttf);
 }
 
 * {
