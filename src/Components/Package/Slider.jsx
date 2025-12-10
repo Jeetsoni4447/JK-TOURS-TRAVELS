@@ -27,40 +27,40 @@ const JKToursCarousel = () => {
     const slides = [
         {
             title: ' DUBAI ',
-            image: '/public/dubai.webp',
+            image: './dubai.webp',
             description_title: '00-Nights / 00-Days',
             description:
                 'Coming Soon... In Website But Bookings Are Open',
         },
         {
             title: ' THAILAND ',
-            image: '/public/thailand.webp',
+            image: './thailand.webp',
             description_title: '00-Nights / 00-Days',
             description:
                 'Coming Soon... In Website But Bookings Are Open',
         },
         {
             title: ' VIETNAM ',
-            image: '/public/vietnam.webp',
+            image: './vietnam.webp',
             description_title: '00-Nights / 00-Days',
             description:
                 'Coming Soon... In Website But Bookings Are Open',
         },
         {
             title: ' LEH-LADAKH ',
-            image: '/public/Leh-Ladakh.webp',
+            image: './Leh-Ladakh.webp',
             description_title: '10-Nights / 11-Days',
             description: '01 Night Manali 01 Night Jispa 02 Night Leh 01 Night Nubra 01 Night Leh 01 Night Pangong Lake 01 Night Leh 01  Night Kargil 01 Night Srinagar',
         },
         {
             title: ' HIMACHAL ',
-            image: '/public/Manali.WebP',
+            image: './Manali.WebP',
             description_title: '09-Nights / 10-Days',
             description: '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
         },
         {
             title: ' UTTARAKHAND ',
-            image: '/public/Mussoorie.WebP',
+            image: './Mussoorie.WebP',
             description_title: '07-Nights / 08-Days',
             description: 'Delhi - Nainital-(2 Nights) Jim Corbett-(2 Nights) Haridwar(1 Nights) Mussoorie(2 Nights) - Delhi',
         }
