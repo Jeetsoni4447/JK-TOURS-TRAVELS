@@ -72,7 +72,7 @@ function Hero() {
             <p className="jktoursHerotitle">Welcome To <br />Jk Tours & Travels</p>
             <p className="p">
               At JK Tours and Travels, we believe in making your journeys unforgettable. Whether it's a business trip, a family vacation, or a weekend getaway, we are here to take care of all your travel needs with excellence and professionalism.</p>
-            <a href="https://wa.me/919904803601" target="_blank" className="booking_btn"><div>Book Now</div></a>
+            <a href="https://wa.me/919904803601" target="_blank" className="booking_btn">Book Now</a>
           </div>
           <div className="img_contant_1"></div>
           <div className="img_contant_2"></div>
@@ -80,7 +80,7 @@ function Hero() {
           <div className="btn_contant">
             <a href="https://wa.me/919904803601" target="_blank" ><div className="btn_1"><FaWhatsapp /></div></a>
             <a href="http://www.youtube.com/@JKTOURS-TRAVEL" target="_blank"><div className="btn_2"><FaYoutube /></div></a>
-            <a href="https://www.instagram.com/jk_tours_travels_/?igsh=amZpaXpxY2V0ZWNr&utm_source=qr#" target="_blank"><div className="btn_3"><FaInstagram /></div></a>
+            <a href="https://www.instagram.com/jk_tours_travels_" target="_blank"><div className="btn_3"><FaInstagram /></div></a>
             <a href="mailto:jktourstravels4447@gmail.com" target="_blank"><div className="btn_4"><FaEnvelope /></div></a>
           </div>
         </div>

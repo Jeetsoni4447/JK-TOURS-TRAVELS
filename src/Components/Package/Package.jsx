@@ -73,6 +73,27 @@ function Package() {
 
   const package_card_1 = [
     {
+      title: ' DUBAI ',
+      image: './public/dubai.webp',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph:
+        'Coming Soon... In Website But Bookings Are Open',
+    },
+    {
+      title: ' THAILAND ',
+      image: './public/thailand.webp',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph:
+        'Coming Soon... In Website But Bookings Are Open',
+    },
+    {
+      title: ' VIETNAM ',
+      image: './public/vietnam.webp',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph:
+        'Coming Soon... In Website But Bookings Are Open',
+    },
+    {
       title: ' LEH-LADAKH ',
       image: './public/Leh-Ladakh.webp',
       paragraph_title: '10-Nights / 11-Days',
@@ -98,20 +119,41 @@ function Package() {
   const package_card_2 = [
     {
       id: 'pc1',
+      title: ' DUBAI ',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph:
+        'Coming Soon... In Website But Bookings Are Open',
+    },
+    {
+      id: 'pc2',
+      title: ' THAILAND ',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph:
+        'Coming Soon... In Website But Bookings Are Open',
+    },
+    {
+      id: 'pc3',
+      title: ' VIETNAM ',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph:
+        'Coming Soon... In Website But Bookings Are Open',
+    },
+    {
+      id: 'pc4',
       title: ' LEH-LADAKH ',
       paragraph_title: '10-Nights / 11-Days',
       paragraph:
         '01 Night Manali 01 Night Jispa 02 Night Leh 01 Night Nubra 01 Night Leh 01 Night Pangong Lake 01 Night Leh 01  Night Kargil 01 Night Srinagar',
     },
     {
-      id: 'pc2',
+      id: 'pc5',
       title: ' HIMACHAL ',
       paragraph_title: '9-Nights / 10-Days',
       paragraph:
         '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
     },
     {
-      id: 'pc3',
+      id: 'pc6',
       title: ' UTTARAKHAND ',
       paragraph_title: '7-Nights / 8-Days',
       paragraph:

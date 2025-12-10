@@ -47,6 +47,46 @@ function Packages() {
   const PackageCards = [
     {
       id: 1,
+      title: ' DUBAI ',
+      image: './public/dubai.webp',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph: 'Coming Soon... In Website But Bookings Are Open',
+      paragraph_note: 'For Booking Call Or Whatsapp',
+    },
+    {
+      id: 2,
+      title: ' THAILAND ',
+      image: './public/thailand.webp',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph: 'Coming Soon... In Website But Bookings Are Open',
+      paragraph_note: 'For Booking Call Or Whatsapp',
+    },
+    {
+      id: 3,
+      title: ' BALI ',
+      image: './public/bali.webp',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph: 'Coming Soon... In Website But Bookings Are Open',
+      paragraph_note: 'For Booking Call Or Whatsapp',
+    },
+    {
+      id: 4,
+      title: ' ANDAMAN NICOBAR ',
+      image: './public/AndamanNicobar.webp',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph: 'Coming Soon... In Website But Bookings Are Open',
+      paragraph_note: 'For Booking Call Or Whatsapp',
+    },
+    {
+      id: 5,
+      title: ' VIETNAM ',
+      image: './public/vietnam.webp',
+      paragraph_title: '00-Nights / 00-Days',
+      paragraph: 'Coming Soon... In Website But Bookings Are Open',
+      paragraph_note: 'For Booking Call Or Whatsapp',
+    },
+    {
+      id: 6,
       title: ' LEH-LADAKH ',
       image: './public/Leh-Ladakh.webp',
       paragraph_title: '10-Nights / 11-Days',
@@ -54,7 +94,7 @@ function Packages() {
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
-      id: 2,
+      id: 7,
       title: ' PURI ODISHA ',
       image: './public/puri.webp',
       paragraph_title: '06-Nights / 07-Days',
@@ -62,7 +102,7 @@ function Packages() {
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
-      id: 3,
+      id: 8,
       title: ' CHARDHAM YATRA ',
       image: './public/Chardham-Yatra.webp',
       paragraph_title: '10-Nights / 11-Days',
@@ -70,7 +110,7 @@ function Packages() {
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
-      id: 4,
+      id: 9,
       title: ' HIMACHAL ',
       image: './public/Manali.webp',
       paragraph_title: '9-Nights / 10-Days',
@@ -78,7 +118,7 @@ function Packages() {
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
-      id: 5,
+      id: 10,
       title: ' RAJASTHAN ',
       image: './public/rajasthan.webp',
       paragraph_title: '7-Nights / 8-Days',
@@ -86,7 +126,7 @@ function Packages() {
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
-      id: 6,
+      id: 11,
       title: ' UTTARAKHAND ',
       image: './public/Mussoorie.webp',
       paragraph_title: '7-Nights / 8-Days',
@@ -94,7 +134,7 @@ function Packages() {
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
-      id: 7,
+      id: 12,
       title: ' GOA ',
       image: './public/goa.webp',
       paragraph_title: '3-Nights / 4-Days',

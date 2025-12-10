@@ -31,7 +31,7 @@
 }
 
 .payment_number_title {
-    width: 60%;
+    width: 70%;
     font-size: 25px;
     font-family: "Playwrite_static";
     border-bottom: 2px solid var(--border-color);
@@ -78,6 +78,14 @@
     /* border: 2px solid red; */
 }
 
+.QRcode_img {
+    height: 400px;
+    width: 70%;
+    object-fit: contain;
+    object-position: center;
+    /* border: 2px solid red; */
+}
+
 .QrcodeTitle {
     height: 40px;
     width: 100%;
@@ -114,7 +122,7 @@
     }
 
     .payment_number_title {
-        width: 80%;
+        width: 90%;
         font-size: 17px;
         font-family: "Playwrite_static";
         border-bottom: 2px solid var(--border-color);
@@ -143,7 +151,7 @@
     }
 
     .Qrcodenote {
-        font-size: 17px;
+        font-size: 12px;
         width: 60%;
         border-bottom: 2px solid var(--border-color);
         font-family: "Playwrite_static";
@@ -172,10 +180,6 @@
         /* border: 2px solid red; */
     }
 
-    .Qrcodenote {
-        font-size: 12px;
-    }
-
     .payment_number {
         font-size: 12px;
     }
@@ -202,7 +206,7 @@
     }
 
     .payment_number_title {
-        width: 80%;
+        width: 95%;
         font-size: 17px;
         font-family: "Playwrite_static";
         border-bottom: 2px solid var(--border-color);
@@ -219,14 +223,14 @@
 
     .payment_note_title {
         font-size: 14px;
-        width: 25%;
+        width: 23%;
         border-bottom: 2px solid var(--border-color);
         font-family: "Playwrite_static";
     }
 
     .Qrcodenote {
         font-size: 17px;
-        width: 60%;
+        width: 80%;
         border-bottom: 2px solid var(--border-color);
         font-family: "Playwrite_static";
     }
@@ -252,10 +256,6 @@
         align-items: center;
         font-family: "Playwrite_static";
         /* border: 2px solid red; */
-    }
-
-    .Qrcodenote {
-        font-size: 12px;
     }
 
     .payment_number {

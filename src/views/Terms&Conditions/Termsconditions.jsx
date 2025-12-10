@@ -34,7 +34,7 @@ function Termsconditions() {
       <Hero />
       <div className="payment">
         <div className="payment_online transition_hide">
-          <h2 className="payment_number_title">NUMBER PAYMENT</h2>
+          <h2 className="payment_number_title">Make A Payment On This Number</h2>
           <p className="payment_number">
             <FontAwesomeIcon icon={faWhatsapp} /> +91 9904803601<br />
             <FontAwesomeIcon icon={faPhone} /> +91 8866381429
@@ -43,15 +43,15 @@ function Termsconditions() {
           <p className="payment_note">
             Dear Customer,<br /> To book a trip, you will have to pay a compulsory advance <br />booking amount. And
             once you have booked the trip,<br /> then you cancel it, your advance booking amount will not be refunded.<br />
-            <b className='Qrcodenote'>And One More Information :- </b><br /><br />
-            Before scanning the tax code, please provide the information of any one of the numbers given above once.
+            <b className='Qrcodenote'>One More Important Information :- </b><br /><br />
+            Before scanning the tax code, please provide the inform of any one of the numbers given above once.
           </p>
         </div>
         <div className="Qrcode transition_hide">
           <div className='QrcodeTitle'>
             JK TOURS & TRAVELS QR CODE
           </div>
-          <img src="./public/JKTOURSQRCODE.WebP" className='QRcode_img' alt="..." />
+          <img src="./public/jkqrcode.WebP" className='QRcode_img' alt="..." />
         </div>
       </div>
 

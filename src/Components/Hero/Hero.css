@@ -26,7 +26,7 @@
 }
 
 .Herotitle {
-    height: 400px;
+    height: 450px;
     width: 39%;
     display: flex;
     justify-content: center;
@@ -34,35 +34,36 @@
     position: absolute;
     top: 29%;
     left: 6%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
     /* border: 2px solid royalblue; */
 }
 
 .jktoursHerotitle {
-    font-size: 51px;
+    font-size: 47px;
     text-align: left;
     color: #fff;
 }
 
 .p {
-    font-size: 21px;
+    font-size: 17px;
     text-align: left;
     color: #fff;
 }
 
 .booking_btn {
-    height: 13%;
-    width: 21%;
+    height: 10%;
+    width: 30%;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #ff1a1a;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
+    /* border: 2px solid royalblue; */
 }
 
 .booking_btn:hover {
