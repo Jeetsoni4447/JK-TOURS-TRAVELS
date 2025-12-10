@@ -51,7 +51,7 @@ function Termsconditions() {
           <div className='QrcodeTitle'>
             JK TOURS & TRAVELS QR CODE
           </div>
-          <img src="./jkqrcode.WebP" className='QRcode_img' alt="..." />
+          <img src="./public/jkqrcode.WebP" className='QRcode_img' alt="..." />
         </div>
       </div>
 
