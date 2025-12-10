@@ -1,7 +1,7 @@
 .carcontainer {
     height: 700px;
     width: 100%;
-    background-image: url("./public/tempo.webp");
+    background-image: url("./tempo.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,7 +238,7 @@
     .carcontainer {
         max-height: 400px;
         max-width: 100%;
-        background-image: url("./public/tempo_mobile.webp");
+        background-image: url("./tempo_mobile.webp");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

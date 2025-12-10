@@ -1,7 +1,7 @@
 .Traincontainer {
     height: 700px;
     width: 100%;
-    background-image: url("./public/VandeTrain.webp");
+    background-image: url("./VandeTrain.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,7 +238,7 @@
     .Traincontainer {
         max-height: 400px;
         max-width: 100%;
-        background-image: url("./public/twotrain.webp");
+        background-image: url("./twotrain.webp");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
