@@ -107,7 +107,7 @@ function Packages() {
       title: ' CHARDHAM YATRA ',
       image: './img/chardhamyatra.webp',
       paragraph_title: '10-Nights / 11-Days',
-      paragraph: 'Delhi - Haridwar(1-Night) - Barkot(2-Night) - Uttarkashi(2-Night) - Sitapur(2-Night) - Badrinath(1-Night) - Pipakoti/Joshimath(1-Night) - Haridwar(1-Night) - Delhi Droping only',
+      paragraph: 'Delhi - Haridwar(1-Night) - Barkot(2-Night) - Uttarkashi(2-Night) - Sitapur(2-Night) - Badrinath(1-Night) - Pipakoti/Joshimath(1-Night) More...',
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
