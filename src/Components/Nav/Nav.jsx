@@ -48,7 +48,7 @@ function Nav() {
       {/* navbar */}
 
       <nav className="nav transition_hide">
-        <NavLink to="/" className="navimg"><img src="public/img/jklogo.webp" alt="jktours" /></NavLink>
+        <NavLink to="/" className="navimg"><img src="./img/jklogo.webp" alt="jktours" /></NavLink>
 
         <NavLink to="/packages" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>PACKAGES</NavLink>
         <NavLink to="/flightbooking" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>Flight Booking</NavLink>
