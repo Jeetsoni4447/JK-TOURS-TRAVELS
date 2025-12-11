@@ -81,7 +81,7 @@ function Nav() {
           <FaPlane /> Flight Booking
         </NavLink>
 
-        <NavLink to="/Carbooking" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
+        <NavLink to="/carbooking" className={({ isActive }) => isActive ? "side_link active" : "side_link"}>
           <FaCar /> Car Booking
         </NavLink>
 
