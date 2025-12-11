@@ -1,7 +1,7 @@
 .buscontainer {
     height: 700px;
     width: 100%;
-    background-image: url("./img/volvobus.webp");
+    background-image: url("/public/img/volvobus.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
