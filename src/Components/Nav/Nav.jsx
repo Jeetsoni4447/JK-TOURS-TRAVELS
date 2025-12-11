@@ -52,7 +52,7 @@ function Nav() {
 
         <NavLink to="/packages" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>PACKAGES</NavLink>
         <NavLink to="/flightbooking" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>Flight Booking</NavLink>
-        <NavLink to="/Carbooking" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>Car Booking</NavLink>
+        <NavLink to="/carbooking" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>Car Booking</NavLink>
         <NavLink to="/busbooking" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>Bus Booking</NavLink>
         <NavLink to="/trainbooking" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>Train Booking</NavLink>
 
