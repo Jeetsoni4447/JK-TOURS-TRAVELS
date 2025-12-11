@@ -113,7 +113,7 @@ function Packages() {
     {
       id: 9,
       title: ' HIMACHAL ',
-      image: './Manali.webp',
+      image: '/manali.webp',
       paragraph_title: '9-Nights / 10-Days',
       paragraph: '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -129,7 +129,7 @@ function Packages() {
     {
       id: 11,
       title: ' UTTARAKHAND ',
-      image: './Mussoorie.webp',
+      image: '/mussoorie.webp',
       paragraph_title: '7-Nights / 8-Days',
       paragraph: 'Delhi - Nainital-(2 Nights) Jim Corbett-(2 Nights) Haridwar(1 Nights) Mussoorie(2 Nights) - Delhi',
       paragraph_note: 'For Booking Call Or Whatsapp',
@@ -137,7 +137,7 @@ function Packages() {
     {
       id: 12,
       title: ' GOA ',
-      image: './goa.webp',
+      image: '/goa.webp',
       paragraph_title: '3-Nights / 4-Days',
       paragraph: 'Goa - North Goa - South Goa - Goa',
       paragraph_note: 'For Booking Call Or Whatsapp',
