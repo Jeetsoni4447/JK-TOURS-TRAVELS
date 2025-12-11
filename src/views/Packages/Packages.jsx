@@ -97,7 +97,7 @@ function Packages() {
     {
       id: 7,
       title: ' PURI ODISHA ',
-      image: '/public/img/puri.webp',
+      image: 'public/img/puri.webp',
       paragraph_title: '06-Nights / 07-Days',
       paragraph: 'Jagannath Puri Tample, Puri Sea Beach, Unesco Heritage Konark Sun Temple, 1100 Year Old Lingraj Temple, Chilika Lake, Dholigirir a Shanti Stupa More...',
       paragraph_note: 'For Booking Call Or Whatsapp',
