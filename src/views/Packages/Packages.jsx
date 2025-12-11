@@ -49,7 +49,7 @@ function Packages() {
     {
       id: 1,
       title: ' DUBAI ',
-      image: './dubai.webp',
+      image: '/public/dubai.webp',
       paragraph_title: '00-Nights / 00-Days',
       paragraph: 'Coming Soon... In Website But Bookings Are Open',
       paragraph_note: 'For Booking Call Or Whatsapp',
