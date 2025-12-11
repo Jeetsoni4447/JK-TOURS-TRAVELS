@@ -29,7 +29,7 @@ function Footer() {
     <>
       <footer className="footer transition_hide">
         <div className="footerimg">
-          <img className="jklogo" src="./jklogo.jpeg" alt="JKLOGO" />
+          <img className="jklogo" src="/public/img/jklogo.jpeg" alt="JKLOGO" />
         </div>
         <div className="footerl_link">
           <div className="footercontent">
