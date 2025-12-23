@@ -65,7 +65,7 @@ function Footer() {
             </div>
           </div>
           <div className="footermap">
-            <h1 className="map_heading"><b>MAP</b></h1>
+            <h1 className="map_heading"><b>VISIT OUR OFFICE</b></h1>
             <iframe id="map_1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927.914309518952!2d70.46469936958857!3d21.521141698765895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5df7c5b4fe7df9%3A0x59a0a85dcbdef972!2sJK%20TOURS%20%26%20TRAVELS!5e0!3m2!1sen!2sin!4v1745302489547!5m2!1sen!2sin" frameBorder="0"></iframe>
           </div>
         </div>
