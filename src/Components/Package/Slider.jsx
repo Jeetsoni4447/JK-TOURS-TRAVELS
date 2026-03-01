@@ -56,7 +56,7 @@ const JKToursCarousel = () => {
             title: ' HIMACHAL ',
             image: './img/manali.webp',
             description_title: '09-Nights / 10-Days',
-            description: '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
+            description: '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Chandigarh',
         },
         {
             title: ' UTTARAKHAND ',

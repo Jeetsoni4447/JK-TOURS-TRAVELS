@@ -150,7 +150,7 @@ function Package() {
       title: ' HIMACHAL ',
       paragraph_title: '9-Nights / 10-Days',
       paragraph:
-        '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
+        '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Chandigarh',
     },
     {
       id: 'pc6',
