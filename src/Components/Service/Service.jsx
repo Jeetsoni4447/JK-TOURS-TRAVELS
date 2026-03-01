@@ -95,35 +95,35 @@ function Service() {
                 <div className="block_comp_1">
                     <div className="b_1 transition_hide">
                         <img src="./img/car.webp" alt="jktours" className="block_img_4" />
-                        <p><b>Vehicle Booking</b>: Rent cars, bikes, and vans easily for any occasion. Choose from a wide range of vehicles to suit your needs. All vehicles are well-maintained and safe to drive. Book your ride quickly through our online platform. Affordable rates for every budget and trip. Doorstep pickup and drop-off available. Perfect solution for travel, events, or temporary transport.</p>
+                        <p><b>Vehicle Booking</b>: Rent cars, bikes, and vans easily for any occasion. Choose from a wide range of vehicles to suit your needs. All vehicles are well-maintained and safe to drive. Book your ride quickly through our online platform. Affordable rates for every budget and trip. Doorstep pickup and drop-off available. Perfect solution for travel, events, or temporary transport. 🚗✨ </p>
                     </div>
                     <div className="b_1 transition_hide">
                         <img src="./img/round-trip.webp" alt="jktours" className="block_img_5" />
-                        <p><b>Round Trips</b>: Pick up from your location and drop off at the same place. Flexible timing to fit your schedule. Choose from cars, SUVs, or luxury vehicles. Enjoy comfortable and safe journeys. Professional drivers ensure a smooth ride. Affordable round-trip packages for every budget. Perfect for airport transfers, city tours, or day trips. Stress-free travel without worrying about return logistics.</p>
+                        <p><b>Round Trips</b>: JK Tours & Travels provides convenient and reliable round-trip booking services for both local and outstation travel. With comfortable vehicles, experienced drivers, and transparent pricing, we ensure smooth pick-up, safe journeys, and timely returns—making your round-trip travel easy, comfortable, and stress-free. 🚗✨ </p>
                     </div>
                     <div className="b_1 transition_hide">
                         <img src="./img/one-way.webp" alt="jktours" className="block_img_6" />
-                        <p><b>One Way</b>: Enjoy the freedom of One-Way Trips with our rental service. Choose cars for your trip. Flexible rental durations to suit your schedule. All vehicles are clean, safe, and regularly maintained.Transparent pricing with no hidden charges. Travel comfortably and conveniently with our one-way rentals.</p>
+                        <p><b>One Way</b>: JK Tours & Travels offers easy and reliable one-way travel services designed for maximum convenience. Whether you’re planning a short trip  journey, we help you book the best one-way options at competitive prices. With quick processing, flexible choices, and trusted support, we ensure a smooth and comfortable travel experience every time. 🚖 </p>
                     </div>
                     <div className="b_1 transition_hide">
                         <img src="./img/flight_ticket.webp" alt="jktours" className="block_img_7" />
-                        <p><b>Flight Booking</b>: Compare prices from multiple airlines to get the best deal. Flexible travel options flights. Easy online booking with instant confirmation. Choose your class for a comfortable journey. Get exclusive discounts  flights. Secure and hassle-free payment options available. Manage your bookings anytime, anywhere. Perfect for business trips, vacations.  Perfect for business trips, vacations, or spontaneous getaways.</p>
+                        <p><b>Flight Booking</b>: JK Tours & Travels offers dependable flight booking services for both domestic and international travel. We help you find the best flight options, schedules, and fares to suit your budget and travel plans. With fast bookings, trusted airline partnerships, and dedicated customer support, we ensure a smooth and comfortable flying experience from takeoff to landing. 🌍✈️ </p>
                     </div>
                     <div className="b_1 transition_hide">
                         <img src="./img/train_ticket.webp" alt="jktours" className="block_img_8" />
-                        <p><b>Train Booking</b>: Check train schedules and seat availability in real-time. Choose from multiple classes: Sleeper, AC, and First Class. Easy and convenient booking from anywhere, anytime. Get instant confirmation via whatsapp chat. Flexible cancellation and rescheduling options available. Hassle-free travel planning for a smooth journey.</p>
+                        <p><b>Train Booking</b>: JK Tours & Travels provides reliable train ticket booking services for hassle-free journeys across India. We assist you in finding the best train options, seat availability, and convenient schedules to match your travel needs. With quick bookings, accurate information, and dedicated customer support, we make your train travel comfortable and worry-free from start to finish. 🚂🚉 </p>
                     </div>
                     <div className="b_1 transition_hide">
                         <img src="./img/bus.webp" alt="jktours" className="block_img_9" />
-                        <p><b>Bus Booking</b>: Choose from a wide range of buses for any route. Enjoy comfortable and safe journeys every time. Flexible booking options for one-way or round trips. Affordable fares to suit every budget. Get instant booking confirmation via Whatsapp chat. Reliable service with on-time departures. Convenient boarding points across the city. Travel stress-free with our hassle-free bus booking service.</p>
+                        <p><b>Bus Booking</b>: JK Tours & Travels provides reliable bus booking services for comfortable and affordable journeys. We help you choose from a wide range of routes and operators to suit your travel needs. With easy bookings, secure payments, and dependable support, we ensure a smooth and stress-free bus travel experience from start to finish. 🚍🚌 </p>
                     </div>
                     <div className="b_1 transition_hide">
                         <img src="./img/packages.webp" alt="jktours" className="block_img_10" />
-                        <p><b>Packages Booking</b>: Explore our flexible vehicle rental packages designed for you. Enjoy affordable rates with no hidden charges. Pick from a wide range of cars, vans, flightticket & trainticket. Packages are tailored for travel, events, or business trips. Safe and well-maintained vehicles for a smooth journey. Also custome Packages & domestic & international packages are available. Book now and enjoy stress-free, flexible transportation solutions. </p>
+                        <p><b>Packages Booking</b>: JK Tours & Travels offers carefully crafted travel packages designed to suit every budget and travel style. From relaxing family holidays and romantic getaways to group tours and custom itineraries, we handle everything—from planning to bookings—so you enjoy a seamless, memorable, and worry-free travel experience. 🌍✈️ </p>
                     </div>
                     <div className="b_1 transition_hide">
-                        <img src="./img/travelling_visa.webp" alt="jktours" className="block_img_11" />
-                        <p><b>Travelling-Visa</b>: Our Travelling-Visa Service provides fast and reliable visa assistance for all major destinations. We guide customers through every step of the application process. Document verification and form-filling support ensure error-free submissions. Dedicated experts handle appointment scheduling preparation. Custom travel-visa solutions are available for tourism, business, study, and work. Our team stays updated with the latest embassy rules and immigration policies. Express and priority visa processing options are also available. Customers receive end-to-end support until visa approval. We ensure a smooth, stress-free visa experience from start to finish.</p>
+                        <img src="./img/travel_passport.webp" alt="jktours" className="block_img_11" />
+                        <p><b>Travel-Passport</b>: JK Tours & Travels offers reliable and hassle-free passport services to make your travel planning smooth and stress-free. From new passport applications and renewals to corrections and Tatkal processing, our team provides complete guidance and accurate documentation support, helping you save time and avoid delays—so you can focus on your journey with confidence. ✈️📘 </p>
                     </div>
                 </div>
             </div>
