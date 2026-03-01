@@ -115,7 +115,7 @@ function Packages() {
       title: ' HIMACHAL ',
       image: './img/manali.webp',
       paragraph_title: '9-Nights / 10-Days',
-      paragraph: '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Amritsar',
+      paragraph: '02 Nights Shimla 03 Night Manali 01 Night Dharamshala 02 Night Dalhousie 01 Night Chandigarh',
       paragraph_note: 'For Booking Call Or Whatsapp',
     },
     {
