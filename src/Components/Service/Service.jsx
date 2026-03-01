@@ -95,7 +95,7 @@ function Service() {
                 <div className="block_comp_1">
                     <div className="b_1 transition_hide">
                         <img src="./img/car.webp" alt="jktours" className="block_img_4" />
-                        <p><b>Vehicle Booking</b>: Rent cars, bikes, and vans easily for any occasion. Choose from a wide range of vehicles to suit your needs. All vehicles are well-maintained and safe to drive. Book your ride quickly through our online platform. Affordable rates for every budget and trip. Doorstep pickup and drop-off available. Perfect solution for travel, events, or temporary transport. 🚗✨ </p>
+                        <p><b>Vehicle Booking</b>: JK Tours & Travels provides Rent cars, bikes, and vans easily for any occasion. Choose from a wide range of vehicles to suit your needs. All vehicles are well-maintained and safe to drive. Book your ride quickly through our online platform. Affordable rates for every budget and trip. Doorstep pickup and drop-off available. Perfect solution for travel, events, or temporary transport. 🚗✨ </p>
                     </div>
                     <div className="b_1 transition_hide">
                         <img src="./img/round-trip.webp" alt="jktours" className="block_img_5" />
